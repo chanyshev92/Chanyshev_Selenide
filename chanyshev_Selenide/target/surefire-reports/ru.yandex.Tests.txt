@@ -1,0 +1,21 @@
+-------------------------------------------------------------------------------
+Test set: ru.yandex.Tests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 7.485 s <<< FAILURE! - in ru.yandex.Tests
+ru.yandex.Tests.testSelenide  Time elapsed: 7.38 s  <<< ERROR!
+java.lang.VerifyError: 
+Expecting a stackmap frame at branch target 25
+Exception Details:
+  Location:
+    pages/YandexMarketPage.filterManufacturer(Ljava/lang/String;)Lpages/YandexMarketPage; @12: invokestatic
+  Reason:
+    Expected stackmap frame at this location.
+  Bytecode:
+    0000000: 2b4e b200 622a 2a2d b800 654d b800 542c
+    0000010: b600 582a 3a05 a700 103a 04b8 0054 1904
+    0000020: b600 5c19 04bf b800 54b6 005f 1905 b0  
+  Exception Handler Table:
+    bci [12, 25] => handler: 25
+
+	at ru.yandex.Tests.testSelenide(Tests.java:22)
+

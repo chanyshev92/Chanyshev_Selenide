@@ -1,0 +1,4 @@
+pages\BasePage.class
+pages\YandexMainPage.class
+pages\YandexMarketPage.class
+assertions\Assertions.class
